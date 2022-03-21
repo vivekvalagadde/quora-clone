@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 //routes
-
+//api
 app.use("/api", router);
 
 app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
